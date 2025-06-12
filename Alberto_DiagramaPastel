@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+
+# Datos
+etiquetas = ['Python', 'Java', 'C++', 'JavaScript']
+porcentajes = [40, 25, 20, 15]
+colores = ['gold', 'lightblue', 'lightgreen', 'pink']
+
+# Gráfica de pastel
+plt.pie(porcentajes, labels=etiquetas, colors=colores, autopct='%1.1f%%', startangle=140)
+plt.title('Lenguajes de Programación Favoritos')
+plt.axis('equal')  # Hace que el gráfico sea circular
+plt.show()
+
+

@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Datos para el diagrama de barras
+categorias = ['Categoría A', 'Categoría B', 'Categoría C', 'Categoría D']
+valores = [3, 7, 2, 5]
+
+# Crear el diagrama de barras horizontales
+plt.barh(categorias, valores, color='skyblue')
+
+# Añadir título y etiquetas
+plt.title('Diagrama de Barras Horizontales')
+plt.xlabel('Valores')
+plt.ylabel('Categorías')
+
+# Mostrar la gráfica
+plt.show()
