@@ -10,5 +10,3 @@ plt.pie(porcentajes, labels=etiquetas, colors=colores, autopct='%1.1f%%', starta
 plt.title('Lenguajes de Programación Favoritos')
 plt.axis('equal')  # Hace que el gráfico sea circular
 plt.show()
-
-
